@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+    margin: auto 10px;
+    width: auto;
+    height: 10px;
+	font-family: "Open Sans";
+	background-color: #FFFCF9;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+    -moz-filter: brightness(30%);
+    -o-filter: brightness(30%);
+    left: 0;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#header {
+	padding: 5px 0px;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	width: 38%;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 3px;
+    border-bottom: 3px solid #43BFE8;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#home {
+	margin-left: 25%;
+	margin-top: 30px;
+	height: 40px;
+	width: 40px;
+}
