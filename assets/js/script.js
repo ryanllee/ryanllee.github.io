@@ -9,29 +9,43 @@ $(document).ready(function() {
     }
     );
 
-  $("#carousel-next").click(function() {
-    var currentmargin = parseInt($('#carousel').css('margin-left').replace("px", "")); 
-    if(currentmargin == -1920) {
-      return false;
-    }
-    else {
-      $("#carousel").css("margin-left", currentmargin-960);
-    }
+  $("#header").click(function() {
+    $("#test1").css("display", "block")
+              .fadeIn("slow");
+    $("#test1 img").css("display", "block")
+              .fadeIn("slow");
+    $("#test2").css("display", "block")
+              .fadeIn("slow");
+    $("#test2 img").css("display", "block")
+              .fadeIn("slow");
+    $("#test3").css("display", "block")
+              .fadeIn("slow");
+    $("#test3 img").css("display", "block")
+              .fadeIn("slow");
+    $("#test4").css("display", "block")
+              .fadeIn("slow");
+    $("#test4 img").css("display", "block")
+              .fadeIn("slow");
   });
 
-  $("#carousel-prev").click(function() {
-    var currentmargin1 = parseInt($('#carousel').css('margin-left').replace("px", "")); 
-    if(currentmargin1 == 0) {
-      return false;
-    }
-    else {
-      $("#carousel").css("margin-left", currentmargin1+960);
-    }
+
+  $("#contentframe").click(function() {
+    $("#test1").css("display", "none")
+              .fadeOut("slow");
+    $("#test1 img").css("display", "none")
+              .fadeOut("slow");
+    $("#test2").css("display", "none")
+              .fadeOut("slow");
+    $("#test2 img").css("display", "none")
+              .fadeOut("slow");
+    $("#test3").css("display", "none")
+              .fadeOut("slow");
+    $("#test3 img").css("display", "none")
+              .fadeOut("slow");
+    $("#test4").css("display", "none")
+              .fadeOut("slow");
+    $("#test4 img").css("display", "none")
+              .fadeOut("slow");
   });
 
-  $("#ContactMe").click(function() {
-    var contact = 1200;
-    $(window).scrollTop(contact);
-  });
-  
 });

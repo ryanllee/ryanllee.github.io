@@ -27,7 +27,7 @@ body {
 	top: 0;
 	bottom: 0;
 	margin: 0 auto;
-	width: 38%;
+	width: 37.5%;
 	font-size: 50px;
 	font-weight: 500;
 	letter-spacing: 3px;
@@ -43,7 +43,7 @@ body {
     left: 0;
     /*top: 207%;*/
     /*bottom: -150px;*/
-    top: 665px;
+    top: 780px;
     margin: 0 auto;
     width: 38%;
     font-size: 50px;
@@ -246,3 +246,58 @@ video {
     height: 100%;
     position: relative;
 }
+
+a:link {
+    /*color: black;*/
+    color: white; /*can take out*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white; /*can take out*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*color: black;*/
+}
+
+.text:hover a{
+    transition-duration: 0.2s;
+    color:#43BFE8;
+    background:none;
+}
+
+#topbar {
+    margin: 0 auto;
+    font-size: 20px;
+    border-bottom: 2px solid #43BFE8;
+    color: white;    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#menu li {
+    display: inline-block;
+    /*text-align: -webkit-match-parent;*/
+}
+
+#menu {
+    padding-top: 0px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    border-top: 2px solid #43BFE8;
+}
+
+.space {
+    /*display: none;*/
+    border-right: 2px solid #43BFE8;
+    border-left: 2px solid #43BFE8;
+    padding: 0px 0px;
+    /*top: 30px;*/
+    height: 15px;
+}
+
+.text {
+    font-size: 16px;
+    top: 30px;
+    padding: 15px 65px;
+}
+
