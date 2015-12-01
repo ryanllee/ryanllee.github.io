@@ -26,41 +26,25 @@ $(document).ready(function() {
   });
 
   $("#header").click(function() {
-    $("#test1").css("display", "block")
-              .fadeIn("slow");
-    $("#test1 img").css("display", "block")
-              .fadeIn("slow");
-    $("#test2").css("display", "block")
-              .fadeIn("slow");
-    $("#test2 img").css("display", "block")
-              .fadeIn("slow");
-    $("#test3").css("display", "block")
-              .fadeIn("slow");
-    $("#test3 img").css("display", "block")
-              .fadeIn("slow");
-    $("#test4").css("display", "block")
-              .fadeIn("slow");
-    $("#test4 img").css("display", "block")
-              .fadeIn("slow");
+    $("#test1").fadeIn("slow");
+    $("#test1 img").fadeIn("slow");
+    $("#test2").fadeIn("slow");
+    $("#test2 img").fadeIn("slow");
+    $("#test3").fadeIn("slow");
+    $("#test3 img").fadeIn("slow");
+    $("#test4").fadeIn("slow");
+    $("#test4 img").fadeIn("slow");
   });
 
   $("#contentframe").click(function() {
-    $("#test1").css("display", "none")
-              .fadeOut("slow");
-    $("#test1 img").css("display", "none")
-              .fadeOut("slow");
-    $("#test2").css("display", "none")
-              .fadeOut("slow");
-    $("#test2 img").css("display", "none")
-              .fadeOut("slow");
-    $("#test3").css("display", "none")
-              .fadeOut("slow");
-    $("#test3 img").css("display", "none")
-              .fadeOut("slow");
-    $("#test4").css("display", "none")
-              .fadeOut("slow");
-    $("#test4 img").css("display", "none")
-              .fadeOut("slow");
+    $("#test1").fadeOut("slow");
+    $("#test1 img").fadeOut("slow");
+    $("#test2").fadeOut("slow");
+    $("#test2 img").fadeOut("slow");
+    $("#test3").fadeOut("slow");
+    $("#test3 img").fadeOut("slow");
+    $("#test4").fadeOut("slow");
+    $("#test4 img").fadeOut("slow");
   });
 
 });
