@@ -425,6 +425,32 @@ a:visited {
     }
 }
 
+@media (min-width: 654px) and (max-width: 688px) {
+    #header {
+        margin-left: 270px;
+    }
+    .text {
+        font-size: 16px;
+        top: 30px;
+        padding: 25px 65px;
+        /*margin-bottom: 20px;*/
+        width: 50px;
+        border-bottom: 2px solid #43BFE8;
+        height: 50px;
+    }
+
+    a {
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    a:visited {
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    }
+    
+}
+
 @media (max-width: 654px) {
 	#header {
 		margin-left: 270px;
